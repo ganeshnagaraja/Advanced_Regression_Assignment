@@ -1,6 +1,4 @@
-# Project Name
-> Outline a brief description of your project.
-
+# Housing Price Predictor
 
 ## Overview
 
