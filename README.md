@@ -19,6 +19,7 @@ I have performed Lasso and Ridge Regression with varying hyperparameters - Alpha
 Obtained R2 and MSE scores on Test set are below:
 
 Ridge Regression:
+
     The optimum alpha is 1
 
     The R2 Score of the model on the test dataset for optimum alpha is 0.7517961186497641
@@ -26,10 +27,11 @@ Ridge Regression:
     The MSE of the model on the test dataset for optimum alpha is 0.0036756374958161067
 
 Lasso Regression:
+
     The optimum alpha is 0.0002
 
     The R2 Score of the model on the test dataset for optimum alpha is 0.7662314016521267
-    
+
     The MSE of the model on the test dataset for optimum alpha is 0.003461866191445042
 
 ## Contact
