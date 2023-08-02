@@ -2,47 +2,36 @@
 > Outline a brief description of your project.
 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+## Overview
 
-<!-- You can include any other section that is pertinent to your problem -->
+A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. 
+For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and 
+decide whether to invest in them or not.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Business Goal
+Required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. 
+They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+## Results
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+I have performed Lasso and Ridge Regression with varying hyperparameters - Alpha, folds, etc
+Obtained R2 and MSE scores on Test set are below:
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+Ridge Regression:
+    The optimum alpha is 1
+    The R2 Score of the model on the test dataset for optimum alpha is 0.7517961186497641
+    The MSE of the model on the test dataset for optimum alpha is 0.0036756374958161067
 
+Lasso Regression:
+    The optimum alpha is 0.0002
+    The R2 Score of the model on the test dataset for optimum alpha is 0.7662314016521267
+    The MSE of the model on the test dataset for optimum alpha is 0.003461866191445042
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by ganeshnagaraja[ganesh_nagaraja@yahoo.in] - feel free to contact me!
 
 
 <!-- Optional -->
